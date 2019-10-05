@@ -13,6 +13,9 @@ class HistoriesController < ApplicationController
   def show
   end
 
+  def allhistories
+  end
+
   # GET /histories/new
   def new
     @history = History.new
